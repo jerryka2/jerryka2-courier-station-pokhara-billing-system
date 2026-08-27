@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "invoices": {
+      "title": "Invoices",
+      "description": "Courier invoices and billing records",
+      "properties": {
+        "id": { "type": "string" },
+        "invoice_no": { "type": "string" },
+        "sender_name": { "type": "string" },
+        "receiver_name": { "type": "string" },
+        "grand_total": { "type": "number" },
+        "created_at": { "type": "string" }
+      }
+    },
+    "kathmandu_billings": {
+      "title": "Kathmandu Billings",
+      "description": "Kathmandu forwarder and carrier billing records",
+      "properties": {
+        "id": { "type": "string" },
+        "ktm_invoice_no": { "type": "string" },
+        "customer_invoice_no": { "type": "string" },
+        "sender_name": { "type": "string" },
+        "receiver_name": { "type": "string" },
+        "total_cost": { "type": "number" },
+        "created_at": { "type": "string" }
+      }
+    },
+    "inventory": {
+      "title": "Inventory",
+      "description": "Packaging supplies and stock inventory",
+      "properties": {
+        "id": { "type": "string" },
+        "item_name": { "type": "string" },
+        "current_stock": { "type": "number" }
+      }
+    },
+    "expenses": {
+      "title": "Expenses",
+      "description": "Daily operational expenses and logs",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "amount": { "type": "number" }
+      }
+    },
+    "rate_cards": {
+      "title": "Rate Cards",
+      "description": "Shipping rate tables for domestic and international destinations",
+      "properties": {
+        "id": { "type": "string" }
+      }
+    },
+    "audit_logs": {
+      "title": "Audit Logs",
+      "description": "System operational and security audit logs",
+      "properties": {
+        "id": { "type": "string" }
+      }
+    },
+    "system_settings": {
+      "title": "System Settings",
+      "description": "System settings and configuration",
+      "properties": {
+        "id": { "type": "string" }
+      }
+    }
+  }
+}

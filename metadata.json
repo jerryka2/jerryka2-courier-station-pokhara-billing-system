@@ -1,0 +1,6 @@
+{
+  "name": "Courier Station Pokhara Billing System",
+  "description": "Courier billing application for The Courier Station Sadobato featuring unified dual billing, DHL Express invoicing, medicine surcharge handling, dedicated shipping list downloads, and real-time profit tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
